@@ -1,4 +1,4 @@
-# bedrock_info.cs
+# BedrockInfo.cs
 Web-API for [bedrockinfo.com](https://bedrockinfo.com) an website to check the online status, players, gamemode of your Minecraft: Bedrock Edtion Server
 
 ## Example
