@@ -14,8 +14,8 @@ namespace Application
         static async Task Main()
         {
             var api = new BedrockInfo();
-            string javaStatus = await api.GetServerStatus("mc.hypixel.net");
-            Console.WriteLine(javaStatus);
+            string serverStatus = await api.GetServerStatus("mc.hypixel.net");
+            Console.WriteLine(serverStatus);
         }
     }
 }
