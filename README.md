@@ -5,7 +5,6 @@ Web-API for [bedrockinfo.com](https://bedrockinfo.com) an website to check the o
 ```cs
 using System;
 using BedrockInfoApi;
-using System.Threading.Tasks;
 
 namespace Application
 {
