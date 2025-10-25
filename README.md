@@ -1,8 +1,22 @@
-# bedrock_info.sh
-Web-API for [bedrockinfo.com](https://bedrockinfo.com) an website to check the online status, players, gamemode of your Minecraft: Bedrock Edtion
+# bedrock_info.cs
+Web-API for [bedrockinfo.com](https://bedrockinfo.com) an website to check the online status, players, gamemode of your Minecraft: Bedrock Edtion Server
 
 ## Example
-```
-source ./bedrock_info.sh
-get_server_status "address" "port"
+```cs
+using System;
+using BedrockInfoApi;
+using System.Threading.Tasks;
+
+namespace Application
+{
+    internal class Program
+    {
+        static async Task Main()
+        {
+            var api = new BedrockInfo();
+            string javaStatus = await api.GetServerStatus("mc.hypixel.net");
+            Console.WriteLine(javaStatus);
+        }
+    }
+}
 ```
