@@ -3,7 +3,6 @@ Web-API for [bedrockinfo.com](https://bedrockinfo.com) an website to check the o
 
 ## Example
 ```cs
-using System;
 using BedrockInfoApi;
 
 namespace Application
